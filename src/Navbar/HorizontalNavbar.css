@@ -11,7 +11,7 @@
     z-index: 1000;
     backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  font-family: "Playwrite CU", cursive;
+  /* font-family: "Playwrite CU", cursive; */
 }
 .topNav h1{
    margin-left: 3%;
