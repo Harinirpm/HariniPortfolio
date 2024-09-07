@@ -1,0 +1,83 @@
+
+.skills {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.skills  h1{
+  font-size: 40px;
+  font-weight: 400;
+  display: inline-block;
+  z-index: 2;
+  
+}
+.skills h1::after{
+  content: " ";
+  display: block;
+  background-color: #f504e1;
+  height: 5px;
+  width: 100px;
+}
+
+.skills .languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 60px; 
+  padding: 10px;
+  max-width: 800px; 
+  margin: 0 auto; 
+  z-index: 2;
+}
+
+.skills .tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 15%; 
+  height: 110%; 
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+  border: 2px solid rgb(233, 9, 214);
+  z-index: 2;
+}
+
+.skills .tools:hover {
+  transform: scale(1.1); 
+}
+
+.skills .lang-icon {
+  width: 80%;
+  height: auto; 
+  object-fit: contain; 
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .skills .icons {
+    gap: 15px; 
+    max-width: 100%; 
+  }
+ .skills .tools {
+    width: 40px; 
+    height: 20px;
+  }
+  .skills .underline{
+    width: 20%;
+    margin-top: 5px;
+  }
+  .skills .second-line{
+    width: 39px;
+  }
+}

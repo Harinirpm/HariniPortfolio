@@ -1,0 +1,103 @@
+ .menu-icon {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1001;
+  }
+  
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #16202c;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+.sidebar.open {
+    left: 0;
+  }
+  
+.sidebar .close-btn {
+    font-size: 36px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+  }
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block; 
+  }
+  .sidebar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  } 
+  .sidebar ul li {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+ .sidebar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+ .link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 20px 10px;
+    position: relative;
+}
+.link:hover {
+  color: #df2db2;
+}
+.link::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    width: 0;
+    height: 2px;
+    background-color: #df2db2;
+    transition: width 0.3s ease;
+}
+.link:hover::after {
+    width: 90%;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block; 
+    }
+  
+    .sidebar {
+      display: block; 
+    }
+  
+    .sidebar.open .close-btn {
+      display: block; 
+    }
+    
+    /* Ensure the sidebar hides on smaller screens when not open */
+    .sidebar:not(.open) {
+      display: none;
+    }
+  
+    /* Hide menu icon when sidebar is open */
+    .menu-icon.hidden {
+      display: none; 
+    }
+  }

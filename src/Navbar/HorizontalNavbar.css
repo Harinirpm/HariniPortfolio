@@ -1,0 +1,90 @@
+.topNav{
+    padding: 10px 20px;
+    width:100%;
+    margin-left: -60px;
+    background: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-family: "Playwrite CU", cursive;
+}
+.topNav h1{
+   margin-left: 3%;
+   color: aliceblue;
+   font-size: 40px;
+   font-weight: 400;
+}
+.topNav .navLinks{
+    display: flex;
+    gap: 70px;
+    margin-left: auto;
+    position: relative;
+
+}
+.topNav .navLinks .link{
+  
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 20px 10px;
+    position: relative;
+    
+}
+.topNav .navLinks 
+.link:hover {
+  color: #df2db2;
+  cursor: pointer;
+}
+.link::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    width: 0;
+    height: 2px;
+    background-color: #df2db2;
+    transition: width 0.3s ease;
+}
+.link:hover::after {
+    width: 100%;
+  }
+  .topNav .logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #e209ff;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #dc00f0,
+    #00e9e9,
+    #ff00dd,
+    #00ffea,
+    #0000ff,
+    #e922df,
+    #8f00ff
+  ); 
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent; 
+  animation: color-change 5s infinite linear; 
+
+  }
+ @media (max-width: 768px) {
+    .topNav .navLinks {
+      display: none;
+    }
+    .topNav h1{
+        margin-left: 90px;
+        font-size: 40px;
+        font-weight: 400;
+    }
+  }

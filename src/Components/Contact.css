@@ -1,0 +1,161 @@
+.contact {
+  /* background-color: rgb(122, 8, 122); */
+  /* background: linear-gradient(145deg, #5260aa, #d24fd6); */
+  background-image: url(https://gifdb.com/images/high/glowing-stars-on-blue-background-pw5c3x4got7s3di5.gif);
+  background-size: cover;
+  /* height: 90vh; */
+  border-top: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px; 
+  margin-top: 90px;
+}
+
+.contact::before {
+  content: " ";
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contact h1::after {
+  content: " ";
+  display: block;
+  width: 190px;
+  height: 5px;
+  margin: 10px auto; 
+  background-color: rgb(234, 0, 255);
+}
+
+.contact p {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact .form-container {
+  display: flex;
+  flex-direction: column; 
+  width: 100%; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.contact .form-group {
+  margin-bottom: 15px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.contact input,
+.contact textarea {
+  width: 100%; 
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(233, 9, 214);
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #ffffff;
+  opacity: 1; 
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.contact .button {
+  padding: 15px;
+  background-color: #fa2ef0;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 104%; 
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Playwrite CU", cursive; 
+}
+
+.contact .button:hover {
+  background-color: #f83cf8;
+  
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border: 3px solid rgb(243, 46, 243);
+  outline: none;
+}
+
+.contact .footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #fff;
+  margin-top: 50px;
+}
+
+.contact .footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .contact h1 {
+    font-size: 30px; 
+  }
+
+  .contact h1::after {
+    width: 120px; 
+  }
+
+  .contact p {
+    font-size: 18px; 
+  }
+
+  .contact .form-container {
+    width: 90%;
+    padding: 10px; 
+  }
+
+  .contact .button {
+    font-size: 18px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .contact h1 {
+    font-size: 24px; 
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+
+  .contact .button {
+    padding: 10px; 
+  }
+}
