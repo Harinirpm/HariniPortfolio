@@ -27,6 +27,9 @@ function Home() {
     <Link to='https://leetcode.com/u/harinimr/'>
     <img src='https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png' alt='LeetCode' className='personal-links'/>
      </Link>
+     <Link to='https://www.geeksforgeeks.org/user/harinirano0yb/'>
+    <img src='https://media.geeksforgeeks.org/wp-content/uploads/20220123013311/gfg-200x200.png' alt='HackerRank' className='personal-links'/>
+     </Link>
      <Link to='https://www.hackerrank.com/profile/harinirangammal4'>
     <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png' alt='HackerRank' className='personal-links'/>
      </Link>
