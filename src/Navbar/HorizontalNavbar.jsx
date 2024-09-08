@@ -11,7 +11,7 @@ function HorizontalNavbar() {
         <ScrollLink to="about" smooth={true} duration={500} className='link'>About</ScrollLink>
         <ScrollLink to="skills" smooth={true} duration={500} className='link'>Skills</ScrollLink>
         <ScrollLink to="projects" smooth={true} duration={500} className='link'>Projects</ScrollLink>
-        <ScrollLink to="contact" smooth={true} duration={500} className='link'>Contact</ScrollLink>
+        {/* <ScrollLink to="contact" smooth={true} duration={500} className='link'>Contact</ScrollLink> */}
       </div>
     </nav>
   );

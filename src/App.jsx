@@ -6,7 +6,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Project from './Components/Project';
-import Contact from './Components/Contact';
+// import Contact from './Components/Contact';
 import SideNavbar from './Navbar/SideNavbar'
 
 function App() {
@@ -28,9 +28,9 @@ function App() {
           <div id="projects">
             <Project />
           </div>
-          <div id="contact">
+          {/* <div id="contact">
             <Contact />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

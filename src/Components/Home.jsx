@@ -3,10 +3,6 @@ import './Home.css';
 import Profile from "../Components/My_Profile.jpeg";
 import Resume from "../Components/Harini_M_Resume.pdf";
 import { Link } from 'react-router-dom';
-import About from './About';
-import Skills from './Skills';
-import Project from './Project';
-import Contact from './Contact';
 function Home() {
   return (
     <>
