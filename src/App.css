@@ -2,7 +2,7 @@ body{
   background-color: rgb(4, 23, 77);
   padding: 10px;
   height: 200vh;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   scroll-behavior: smooth;
 }
 #home, #about, #skills, #projects, #contact {

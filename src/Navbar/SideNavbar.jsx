@@ -33,7 +33,7 @@ function SideNavbar() {
        <li><ScrollLink to="about" smooth={true} duration={500} className='link'>About</ScrollLink></li>
         <li><ScrollLink to="skills" smooth={true} duration={500} className='link'>Skills</ScrollLink></li>
         <li><ScrollLink to="projects" smooth={true} duration={500} className='link'>Projects</ScrollLink></li>
-        {/* <li><ScrollLink to="contact" smooth={true} duration={500} className='link'>Contact</ScrollLink></li> */}
+        <li><ScrollLink to="contact" smooth={true} duration={500} className='link'>Contact</ScrollLink></li>
         </ul>
       </div>
     </div>
