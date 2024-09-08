@@ -57,7 +57,7 @@ function Contact() {
         <label>Message</label>
         <textarea id='message'
          name='message' 
-        placeholder='Enter your Message'
+        placeholder='Message...'
         rows='5' required></textarea>
       </div>
 
