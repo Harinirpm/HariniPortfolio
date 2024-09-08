@@ -1,5 +1,5 @@
 .contact {
-  /* background-image: url(https://media.tenor.com/D4CfVpmuzCYAAAAi/white-glitch.gif); */
+  
   background-size: cover;
   border-top: 1px solid #fff;
   background-color: #070029;
@@ -86,7 +86,7 @@
 .contact .button {
   padding: 15px;
   background-color: #fa2ef0;
-  /* background-color: rgba(255, 255, 255, 0.2); */
+
   color: #fff;
   border: none;
   border-radius: 4px;

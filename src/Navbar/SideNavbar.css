@@ -90,13 +90,9 @@
     .sidebar.open .close-btn {
       display: block; 
     }
-    
-    /* Ensure the sidebar hides on smaller screens when not open */
     .sidebar:not(.open) {
       display: none;
     }
-  
-    /* Hide menu icon when sidebar is open */
     .menu-icon.hidden {
       display: none; 
     }
