@@ -46,7 +46,7 @@ function Home() {
     <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png' alt='HackerRank' className='personal-links'/>
      </Link> */}
      <div className='resume-download'>
-      <a href={Resume} download={"Harini_M_Resume.pdf"} className='download-button'>Download Resume</a>
+      {/* <a href={Resume} download={"Harini_M_Resume.pdf"} className='download-button'>Download Resume</a> */}
      </div>
     </div>
     
