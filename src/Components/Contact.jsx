@@ -1,38 +1,39 @@
 import React,{useRef} from 'react'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import './Contact.css';
 function Contact() {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm('service_p8y4nqj', 
-        'template_rlnzvif', 
-        form.current, {
-        publicKey: 'kukP1MCDtoGMS4LE7',
-      })
-      .then(
-        () => {
-          console.log('Message send successfully!..');
-         alert('Message send successfully!');
-          window.location.reload();
-        },
-        (error) => {
-          console.log('Message send failed...', error.text);
-          alert('Message sending failed. Please try again.');
-        },
-      );
-  };
+  //   emailjs
+  //     .sendForm('service_p8y4nqj', 
+  //       'template_rlnzvif', 
+  //       form.current, {
+  //       publicKey: 'kukP1MCDtoGMS4LE7',
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log('Message send successfully!..');
+  //        alert('Message send successfully!');
+  //         window.location.reload();
+  //       },
+  //       (error) => {
+  //         console.log('Message send failed...', error.text);
+  //         alert('Message sending failed. Please try again.');
+  //       },
+  //     );
+  // };
   return (
     <>
     <div className='contact'>
       <h1>Let's Connect</h1>
       <p>If you are interested in my skills and services, feel free to contact me. 
         I would be happy to discuss with you and share values that benefit each other!</p>
+        <p>Email : harinirangammal4@gmail.com</p>
       <div className='form-container'>
-      <form htmlFor='true' ref={form} onSubmit={sendEmail}>
+      {/* <form htmlFor='true' ref={form} onSubmit={sendEmail}>
       <div className='form-group'>
        <label>Name</label>
         <input 
@@ -59,12 +60,12 @@ function Contact() {
          name='message' 
         placeholder='Message...'
         rows='5' required></textarea>
-      </div>
+      </div> */}
 
       {/* <button type='submit'
       value={Send}>Submit</button> */}
-      <input type="submit" value="Send" className='button'/>
-      </form>
+      {/* <input type="submit" value="Send" className='button'/>
+      </form> */}
       </div>
       <footer className='footer'>
           <p>Created by Harini | 2024</p>
@@ -75,3 +76,5 @@ function Contact() {
 }
 
 export default Contact
+
+ // "@emailjs/browser": "^4.4.1",
