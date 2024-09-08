@@ -15,32 +15,32 @@ function Home() {
         <h4>Artificial Intelligence and Data Science Student!</h4>
         <div className='media'>
         <a href='https://www.linkedin.com/in/harini-murali-bitsathy/' target="_blank" rel="noopener noreferrer">
-  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0adDoUGWVD3jGzfT8grK5Uhw0dLXSk3OWJwZaXI-t95suRZQ-wPF7-Az6KurXDVktV4&usqp=CAU' alt='LinkedIn' className='personal-links'/>
+  {/* <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0adDoUGWVD3jGzfT8grK5Uhw0dLXSk3OWJwZaXI-t95suRZQ-wPF7-Az6KurXDVktV4&usqp=CAU' alt='LinkedIn' className='personal-links'/> */}
 </a>
     {/* <Link to='https://www.linkedin.com/in/harini-murali-bitsathy/' >
     <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0adDoUGWVD3jGzfT8grK5Uhw0dLXSk3OWJwZaXI-t95suRZQ-wPF7-Az6KurXDVktV4&usqp=CAU' alt='LinkedIn' className='personal-links'/>
     </Link>  */}
      <a href='https://github.com/Harinirpm' target="_blank" rel="noopener noreferrer">
-  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnn_FLBfy9aUkcxjAnbOIwnRt1Da8obGqo0w&s' alt='GitHub' className='personal-links'/>
+  {/* <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnn_FLBfy9aUkcxjAnbOIwnRt1Da8obGqo0w&s' alt='GitHub' className='personal-links'/> */}
 </a>
     {/* <Link to='https://github.com/Harinirpm'>
     <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnn_FLBfy9aUkcxjAnbOIwnRt1Da8obGqo0w&s' alt='GitHub' className='personal-links' />
     </Link> */}
      <a href='https://leetcode.com/u/harinimr/' target="_blank" rel="noopener noreferrer">
-  <img src='https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png' alt='LeetCode' className='personal-links'/>
+  {/* <img src='https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png' alt='LeetCode' className='personal-links'/> */}
 </a>
     
     {/* <Link to='https://leetcode.com/u/harinimr/'>
     <img src='https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png' alt='LeetCode' className='personal-links'/>
      </Link> */}
      <a href='https://www.geeksforgeeks.org/user/harinirano0yb/' target="_blank" rel="noopener noreferrer">
-  <img src='https://media.geeksforgeeks.org/wp-content/uploads/20220123013311/gfg-200x200.png' alt='HackerRank' className='personal-links'/>
+  {/* <img src='https://media.geeksforgeeks.org/wp-content/uploads/20220123013311/gfg-200x200.png' alt='HackerRank' className='personal-links'/> */}
 </a>
      {/* <Link to='https://www.geeksforgeeks.org/user/harinirano0yb/'>
     <img src='https://media.geeksforgeeks.org/wp-content/uploads/20220123013311/gfg-200x200.png' alt='HackerRank' className='personal-links'/>
      </Link> */}
      <a href='https://www.hackerrank.com/profile/harinirangammal4' target="_blank" rel="noopener noreferrer">
-  <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png' alt='HackerRank' className='personal-links'/>
+  {/* <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png' alt='HackerRank' className='personal-links'/> */}
 </a>
      {/* <Link to='https://www.hackerrank.com/profile/harinirangammal4'>
     <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-512.png' alt='HackerRank' className='personal-links'/>
